@@ -1,8 +1,5 @@
 has_socialist_government = {
-	OR = {
-		has_government = communism
-		has_country_leader_ideology = national_syndicalism
-	}
+	has_government = communism
 }
 
 has_democratic_government = {
@@ -41,10 +38,7 @@ is_german_tag = {
 }
 
 is_american_tag = {
-	OR = {
-		original_tag = USA
-		original_tag = CSA
-	}
+	is_usa_tag = yes
 }
 
 is_english_tag = {
@@ -86,6 +80,7 @@ is_russian_tag = {
 		original_tag = RUS
 		original_tag = SOV
 		original_tag = FER
+		original_tag = KAR
 	}
 }
 
@@ -173,6 +168,13 @@ is_commonwealth_tag = {
 	}
 }
 
+is_commonwealth_or_british_tag = {
+	OR = {
+		is_commonwealth_tag = yes
+		is_british_tag = yes
+	}
+}
+
 is_germany_or_splinter_tag = {
 	is_german_tag = yes
 }
@@ -248,4 +250,141 @@ is_actual_major_without_exceptions = {
 
 is_italian_tag = {
 	is_italian_nation = yes
+}
+
+is_egypt_or_sudan = {
+	OR = {
+		original_tag = EGY
+		original_tag = SUD
+	}
+}
+
+is_netherlands_tag = {
+	original_tag = HOL
+}
+
+is_irish_tag = {
+	OR = {
+		original_tag = IRE
+		original_tag = NIR
+	}
+}
+
+is_qing_or_puppet = {
+	OR = {
+		is_qing_monarchy = yes
+		AND = {
+			is_subject = yes
+			OVERLORD = {
+				is_qing_monarchy = yes
+			}
+		}
+	}
+}
+
+is_savoian_monarchy = {
+	OR = {
+		has_idea = victor_emmanuel_ww1
+		has_idea = victor_emmanuel
+		has_idea = umberto_ii
+		has_country_leader = {
+			character = ITA_vittorio_emanuele_iii
+			ruling_only = yes
+		}
+		has_country_leader = {
+			character = ITA_umberto_ii
+			ruling_only = yes
+		}
+		has_country_leader = {
+			character = ITA_umberto_ii
+			ruling_only = yes
+		}
+		has_country_flag = {
+			character = SRD_emanuele_filiberto_i
+			ruling_only = yes
+		}
+	}
+}
+
+is_usa_or_psa = {
+	is_american_tag = yes
+	owns_state = 378
+	NOT = {
+		has_government = communism
+		has_government = fascism
+	}
+}
+
+is_liberal_us_tag = {
+	is_american_tag = yes
+	has_government = democratic
+}
+
+is_bolivarian_tag = {
+	OR = {
+		original_tag = COL
+		original_tag = ECU
+		original_tag = PAN
+		original_tag = VEN
+	}
+}
+
+is_andean_tag = {
+	OR = {
+		original_tag = BOL
+		original_tag = CHL
+		original_tag = ECU
+		original_tag = PRU
+	}
+}
+is_platinean_tag = {
+	OR = {
+		original_tag = ARG
+		# original_tag = FOP
+		original_tag = PAR
+		original_tag = URG
+	}
+}
+
+
+is_arabian_tag = {
+	OR = {
+		original_tag = SAU
+		original_tag = JBS
+		original_tag = HJZ
+		original_tag = ASR
+	}
+}
+is_arab_tag = {
+	OR = {
+		is_arabian_tag = yes
+		is_libya_tag = yes
+		original_tag = EGY
+		original_tag = YEM
+		original_tag = OMA
+		original_tag = SYR
+		original_tag = IRQ
+		original_tag = PAL
+		original_tag = ALG
+		original_tag = TUN
+		original_tag = MOR
+	}
+}
+is_arabian_peninsula_tag = {
+	OR = {
+		is_arabian_tag = yes
+		original_tag = OMA
+		original_tag = YEM
+	}
+}
+
+is_indian_tag = {
+	#custom_trigger_tooltip = {
+	#	tooltip = is_indian_tag
+		OR = {
+			original_tag = RAJ
+			original_tag = BAN
+			original_tag = PAK
+		}
+	#}
 }
