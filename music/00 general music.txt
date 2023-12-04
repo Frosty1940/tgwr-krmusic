@@ -747,14 +747,6 @@ music = {
 	}
 }
 music = {
-	song = "hohenzollernlied"
-	chance = {
-		base = 0
-		modifier = { add = 14		original_tag = GER }
-		modifier = { add = 6		is_subject_of = GER }
-	}
-}
-music = {
 	song = "preussens_gloria"
 	chance = {
 		base = 0
@@ -912,6 +904,24 @@ music = {
 	chance = {
 		base = 0
 		modifier = { add = 14		original_tag = GER }
+		modifier = { add = 6		is_subject_of = GER }
+		modifier = { factor = 0.3	has_war = yes }
+	}
+}
+music = {
+	song = "wenn_die_sonja_russisch_tanzt"
+	chance = {
+		base = 0
+		modifier = { add = 14		original_tag = GER }
+		modifier = { add = 6		is_subject_of = GER }
+		modifier = { factor = 0.3	has_war = yes }
+	}
+}
+music = {
+	song = "wo_die_lotusblueten_bluehn"
+	chance = {
+		base = 0
+		modifier = { add = 14		is_starting_german_tag = yes }
 		modifier = { add = 6		is_subject_of = GER }
 		modifier = { factor = 0.3	has_war = yes }
 	}
@@ -6877,6 +6887,13 @@ music = {
 	}
 }
 music = {
+	song = "ahnastazja"
+	chance = {
+		base = 0
+		modifier = { add = 20	is_russian_tag = yes }
+	}
+}
+music = {
 	song = "song_of_the_siberian_riflemen"
 	chance = {
 		base = 0
@@ -6924,19 +6941,6 @@ music = {
 # COSSACKS
 
 music = {
-	song = "kossak_song"
-	chance = {
-		base = 0
-		modifier = {
-			add = 20
-			OR = {
-				is_russian_tag = yes
-				tag = UKR
-			}
-		}
-	}
-}
-music = {
 	song = "bratina"
 	chance = {
 		base = 0
@@ -6967,17 +6971,6 @@ music = {
 
 # SOCIALIST (SOV)
 
-music = {
-	song = "red_cavalry"
-	chance = {
-		base = 0
-		modifier = {
-			add = 20
-			is_russian_tag = yes
-			has_socialist_government = yes
-		}
-	}
-}
 music = {
 	song = "polyushko_polye"
 	chance = {
@@ -7130,13 +7123,6 @@ music = {
 			is_russian_tag = yes
 			has_socialist_government = yes
 		}
-	}
-}
-music = {
-	song = "ahnastazja"
-	chance = {
-		base = 0
-		modifier = { add = 20	is_russian_tag = yes }
 	}
 }
 
@@ -8472,17 +8458,6 @@ music = {
 ### UKR - Ukraine ###
 
 music = {
-	song = "anarchia"
-	chance = {
-		base = 0
-		modifier = {
-			add = 20
-			tag = UKR
-			has_socialist_government = yes
-		}
-	}
-}
-music = {
 	song = "zaphorozian_cossack_march"
 	chance = {
 		base = 0
@@ -8602,6 +8577,20 @@ music = {
 	}
 }
 music = {
+	song = "ikhav_kozak_za_dunaj"
+	chance = {
+		base = 0
+		modifier = { add = 20	tag = UKR }
+	}
+}
+music = {
+	song = "yshly_selom_partyzany"
+	chance = {
+		base = 0
+		modifier = { add = 20	tag = UKR }
+	}
+}
+music = {
 	song = "vichnyy_revolyutsioner"
 	chance = {
 		base = 0
@@ -8613,12 +8602,17 @@ music = {
 	}
 }
 music = {
-	song = "yshly_selom_partyzany"
+	song = "anarchia"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = UKR }
+		modifier = {
+			add = 20
+			tag = UKR
+			has_socialist_government = yes
+		}
 	}
 }
+
 
 ### NIR - Northern Ireland ###
 
