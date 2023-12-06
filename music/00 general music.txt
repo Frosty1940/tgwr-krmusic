@@ -150,9 +150,15 @@ music = {
 	chance = {
 		base = 0
 		modifier = {
-			add = 5
-			any_war_score > 0.7
-			has_tech = nukes
+			add = 30
+			OR = {
+				any_war_score > 0.7
+				has_country_flag = great_war_winner
+			}
+			has_global_flag = kis_war
+			NOT = {
+				has_global_flag = interbellum
+			}
 		}
 	}
 }
@@ -921,7 +927,7 @@ music = {
 	song = "wo_die_lotusblueten_bluehn"
 	chance = {
 		base = 0
-		modifier = { add = 14		is_starting_german_tag = yes }
+		modifier = { add = 14		original_tag = GER }
 		modifier = { add = 6		is_subject_of = GER }
 		modifier = { factor = 0.3	has_war = yes }
 	}
@@ -7083,28 +7089,6 @@ music = {
 }
 music = {
 	song = "you_fell_victim"
-	chance = {
-		base = 0
-		modifier = {
-			add = 20
-			is_russian_tag = yes
-			has_socialist_government = yes
-		}
-	}
-}
-music = {
-	song = "warsawjanka"
-	chance = {
-		base = 0
-		modifier = {
-			add = 20
-			is_russian_tag = yes
-			has_socialist_government = yes
-		}
-	}
-}
-music = {
-	song = "theremarchthesoldiers"
 	chance = {
 		base = 0
 		modifier = {
