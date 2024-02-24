@@ -4836,6 +4836,7 @@ music = {
 			OR = {
 				tag = LAO
 				tag = OST
+				tag = IND
 			}
 		}
 	}
@@ -4849,6 +4850,7 @@ music = {
 			OR = {
 				tag = LAO
 				tag = OST
+				tag = IND
 			}
 		}
 	}
@@ -9083,14 +9085,14 @@ music = {
 	song = "bai_hat_gai_phong_quan"
 	chance = {
 		base = 0
-		modifier = { add = 20	original_tag = VIN }
+		modifier = { add = 20	OR = { original_tag = VIN original_tag = IND } }
 	}
 }
 music = {
 	song = "moi_buoc_ta_di"
 	chance = {
 		base = 0
-		modifier = { add = 20	original_tag = VIN }
+		modifier = { add = 20	OR = { original_tag = VIN original_tag = IND AND = { } } }
 	}
 }
 
