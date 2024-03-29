@@ -1299,7 +1299,7 @@ music = {
 				tag = NZL
 				AND = {
 					OR = {
-						OR = { original_tag = CAN original_tag = AST original_tag = NZL original_tag = AST original_tag = SAF }
+						OR = { original_tag = CAN original_tag = AST original_tag = NZL original_tag = AST original_tag = SAF original_tag = NFL }
 						original_tag = ENG
 						original_tag = SAF
 						original_tag = RAJ
@@ -1902,7 +1902,7 @@ music = {
 	song = "the_banks_of_newfoundland"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = CAN }
+		modifier = { add = 20	OR = { tag = CAN tag = NFL } }
 	}
 }
 music = {
@@ -2337,7 +2337,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS }
+			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
 			has_government = communism
 		}
 	}
@@ -2348,7 +2348,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS }
+			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
 			has_government = communism
 		}
 	}
@@ -2359,7 +2359,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS }
+			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
 			has_government = communism
 		}
 	}
@@ -2370,7 +2370,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS }
+			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
 			has_government = communism
 		}
 	}
@@ -2896,7 +2896,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS }
+			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
 			has_government = communism
 		}
 	}
@@ -2907,7 +2907,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS }
+			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
 			is_american_tag = no
 			has_government = communism
 		}
@@ -3494,7 +3494,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			OR = { original_tag = ENG original_tag = CAN original_tag = IRE original_tag = NIR }
+			OR = { original_tag = ENG original_tag = CAN original_tag = IRE original_tag = NIR original_tag = NFL }
 		}
 	}
 }
@@ -3504,7 +3504,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			OR = { original_tag = ENG original_tag = CAN original_tag = IRE original_tag = NIR }
+			OR = { original_tag = ENG original_tag = CAN original_tag = IRE original_tag = NIR original_tag = NFL }
 		}
 	}
 }
@@ -3546,7 +3546,7 @@ music = {
 			add = 20
 			OR = {
 				AND = {
-					OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS } NOT = { has_government = communism has_country_leader_ideology = socialism } 
+					OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism } 
 				}
 				tag = IRE
 			}
@@ -3568,77 +3568,77 @@ music = {
 	song = "colonel_bogey_march"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
 	}
 }
 music = {
 	song = "the_last_time_i_saw_paris"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
 	}
 }
 music = {
 	song = "i_vow_to_thee_my_country"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
 	}
 }
 music = {
 	song = "god_save_the_king"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
 	}
 }
 music = {
 	song = "heart_of_oak"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
 	}
 }
 music = {
 	song = "land_of_hope_and_glory"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
 	}
 }
 music = {
 	song = "song_of_liberty"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
 	}
 }
 music = {
 	song = "keep_the_home_fires_burning"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
 	}
 }
 music = {
 	song = "sons_of_the_brave"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
 	}
 }
 music = {
 	song = "rule_britannia"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
 	}
 }
 music = {
 	song = "well_never_let_the_old_flag_fall"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
 	}
 }
 
@@ -5070,7 +5070,7 @@ music = {
 	}
 }
 music = {
-	song = "gaudzia_trimitai"
+	song = "marsas_gaudzia_trimitai"
 	chance = {
 		base = 0
 		modifier = { add = 20	tag = LIT }
@@ -5084,7 +5084,7 @@ music = {
 	}
 }
 music = {
-	song = "kur_bakuze_samanota"
+	song = "marsas_kur_bakuze_samanota"
 	chance = {
 		base = 0
 		modifier = { add = 20	tag = LIT }
@@ -6574,7 +6574,8 @@ music = {
 			add = 20
 			OR = {
 				tag = CAN
-				tag = QUE
+				tag = QBC
+				tag = NFL
 			}
 		}
 	}
@@ -6587,7 +6588,8 @@ music = {
 			add = 20
 			OR = {
 				tag = CAN
-				tag = QUE
+				tag = QBC
+				tag = NFL
 			}
 		}
 	}
@@ -7328,7 +7330,7 @@ music = {
 	song = "twa_recruiting_sergeants"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
 	}
 }
 
@@ -9092,7 +9094,7 @@ music = {
 	song = "moi_buoc_ta_di"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = VIN original_tag = IND AND = { } } }
+		modifier = { add = 20	OR = { original_tag = VIN original_tag = IND } }
 	}
 }
 
@@ -9240,7 +9242,7 @@ music = {
 	song = "forged_from_the_love_of_liberty"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
 	}
 }
 
