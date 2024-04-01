@@ -101,7 +101,7 @@ music_station = "kr_main_music"
  # QIE - Qing
  # QUE - Quebec
  # ROM - Romania
- # RUS (&SOV) - Russia
+ # RUS - Russia
  # SAF - South Africa
  # SCO - Scotland
  # SER - Serbia
@@ -115,7 +115,6 @@ music_station = "kr_main_music"
  # SWE - Sweden
  # SWF - CNT-FAI
  # SWI - Switzerland
- # SZC - Sichuan
  # TEX - American Union State
  # TRS - Transylvania
  # TUN - Tunisia
@@ -1304,7 +1303,13 @@ music = {
 						original_tag = SAF
 						original_tag = RAJ
 					}
-					NOT = { has_government = communism }
+					any_country = {
+						is_in_faction_with = PREV
+						OR = {
+							is_britain_a_monarchy = yes
+							has_country_flag = has_british_monarchy
+						}
+					}
 				}
 			}
 		}
@@ -4518,6 +4523,62 @@ music = {
 }
 music = {
 	song = "black_velvet_band"
+	chance = {
+		base = 0
+		modifier = { add = 20	OR = { original_tag = IRE original_tag = NIR } }
+	}
+}
+music = {
+	song = "down_by_the_salley_gardens"
+	chance = {
+		base = 0
+		modifier = { add = 20	OR = { original_tag = IRE original_tag = NIR } }
+	}
+}
+music = {
+	song = "roddy_mccorley"
+	chance = {
+		base = 0
+		modifier = { add = 20	OR = { original_tag = IRE original_tag = NIR } }
+	}
+}
+music = {
+	song = "march_of_the_king_of_laois"
+	chance = {
+		base = 0
+		modifier = { add = 20	OR = { original_tag = IRE original_tag = NIR } }
+	}
+}
+music = {
+	song = "merrily_kissed_the_quaker"
+	chance = {
+		base = 0
+		modifier = { add = 20	OR = { original_tag = IRE original_tag = NIR } }
+	}
+}
+music = {
+	song = "osullivans_march"
+	chance = {
+		base = 0
+		modifier = { add = 20	OR = { original_tag = IRE original_tag = NIR } }
+	}
+}
+music = {
+	song = "planxty_irwin"
+	chance = {
+		base = 0
+		modifier = { add = 20	OR = { original_tag = IRE original_tag = NIR } }
+	}
+}
+music = {
+	song = "rocky_road_to_dublin"
+	chance = {
+		base = 0
+		modifier = { add = 20	OR = { original_tag = IRE original_tag = NIR } }
+	}
+}
+music = {
+	song = "wildgeese"
 	chance = {
 		base = 0
 		modifier = { add = 20	OR = { original_tag = IRE original_tag = NIR } }
@@ -8329,6 +8390,41 @@ music = {
 }
 music = {
 	song = "infanterie_marsch"
+	chance = {
+		base = 0
+		modifier = { add = 20	tag = SWI }
+	}
+}
+music = {
+	song = "das_liebe_alte_bern"
+	chance = {
+		base = 0
+		modifier = { add = 20	tag = SWI }
+	}
+}
+music = {
+	song = "marsch_der_grenadiere"
+	chance = {
+		base = 0
+		modifier = { add = 20	tag = SWI }
+	}
+}
+music = {
+	song = "mit_wehenden_fahnen"
+	chance = {
+		base = 0
+		modifier = { add = 20	tag = SWI }
+	}
+}
+music = {
+	song = "roulez_tambours"
+	chance = {
+		base = 0
+		modifier = { add = 20	tag = SWI }
+	}
+}
+music = {
+	song = "schuetzenmarsch"
 	chance = {
 		base = 0
 		modifier = { add = 20	tag = SWI }
