@@ -635,7 +635,7 @@ music = {
 ### Eastern European region ###
 
 music = {
-	song = "stankovics_waltz_no_two"
+	song = "shostakovich_waltz_no_two"
 	chance = {
 		base = 0
 		modifier = {
@@ -6772,14 +6772,14 @@ music = {
 ### RUS - Russia ###
 
 music = {
-	song = "song_of_the_volga_boatman"
+	song = "ey_ukhnem"
 	chance = {
 		base = 0
 		modifier = { add = 20	is_russian_tag = yes }
 	}
 }
 music = {
-	song = "black_eyes"
+	song = "ochi_chernye"
 	chance = {
 		base = 0
 		modifier = { add = 20	is_russian_tag = yes }
@@ -6807,7 +6807,7 @@ music = {
 	}
 }
 music = {
-	song = "we_weren_t_home"
+	song = "davno_my_doma_ne_byli"
 	chance = {
 		base = 0
 		modifier = { add = 20	is_russian_tag = yes }
@@ -6821,21 +6821,21 @@ music = {
 	}
 }
 music = {
-	song = "three_tankers"
+	song = "tri_tankista"
 	chance = {
 		base = 0
 		modifier = { add = 20	is_russian_tag = yes }
 	}
 }
 music = {
-	song = "onwards"
+	song = "v_put"
 	chance = {
 		base = 0
 		modifier = { add = 20	is_russian_tag = yes }
 	}
 }
 music = {
-	song = "katusha"
+	song = "rus_katyusha"
 	chance = {
 		base = 0
 		modifier = { add = 20	is_russian_tag = yes }
@@ -6849,28 +6849,28 @@ music = {
 	}
 }
 music = {
-	song = "dark_eyed_cossack_girl"
+	song = "chernoglazaya_kazachka"
 	chance = {
 		base = 0
 		modifier = { add = 20	is_russian_tag = yes }
 	}
 }
 music = {
-	song = "cossack_song"
+	song = "kazachya_pesnya"
 	chance = {
 		base = 0
 		modifier = { add = 20	is_russian_tag = yes }
 	}
 }
 music = {
-	song = "transbaikal"
+	song = "po_dikim_stepyam_zabaikalya"
 	chance = {
 		base = 0
 		modifier = { add = 20	is_russian_tag = yes }
 	}
 }
 music = {
-	song = "zion"
+	song = "kol_slaven_nash_gospod_v_sione"
 	chance = {
 		base = 0
 		modifier = { add = 20	is_russian_tag = yes }
@@ -6884,14 +6884,14 @@ music = {
 	}
 }
 music = {
-	song = "glory_to"
+	song = "slavsya"
 	chance = {
 		base = 0
 		modifier = { add = 20	tag = RUS }
 	}
 }
 music = {
-	song = "patriotic_song"
+	song = "patrioticheskaya_pesnya"
 	chance = {
 		base = 0
 		modifier = { add = 20	tag = RUS }
@@ -6919,7 +6919,7 @@ music = {
 	}
 }
 music = {
-	song = "farewell_to_slavianka"
+	song = "farewell_of_slavianka"
 	chance = {
 		base = 0
 		modifier = { add = 20	is_russian_tag = yes }
@@ -6975,14 +6975,14 @@ music = {
 	}
 }
 music = {
-	song = "ahnastazja"
+	song = "ah_nastassia"
 	chance = {
 		base = 0
 		modifier = { add = 20	is_russian_tag = yes }
 	}
 }
 music = {
-	song = "song_of_the_siberian_riflemen"
+	song = "march_of_the_siberian_riflemen"
 	chance = {
 		base = 0
 		modifier = {
@@ -6993,7 +6993,7 @@ music = {
 	}
 }
 music = {
-	song = "god_save_the_tsar_russia"
+	song = "god_save_the_tsar"
 	chance = {
 		base = 0
 		modifier = {
@@ -7015,7 +7015,7 @@ music = {
 	}
 }
 music = {
-	song = "junckers_song"
+	song = "bul_bul_butylochka_kazonnogo_vina"
 	chance = {
 		base = 0
 		modifier = {
@@ -7026,7 +7026,7 @@ music = {
 	}
 }
 
-# COSSACKS
+# Cossack songs; formerly DKB
 
 music = {
 	song = "bratina"
@@ -7036,14 +7036,14 @@ music = {
 	}
 }
 music = {
-	song = "spill_the_way"
+	song = "prolit_put"
 	chance = {
 		base = 0
 		modifier = { add = 20	is_russian_tag = yes }
 	}
 }
 music = {
-	song = "cossacks_dance"
+	song = "polno_vam_snyezheochki"
 	chance = {
 		base = 0
 		modifier = { add = 20	is_russian_tag = yes }
@@ -7057,7 +7057,7 @@ music = {
 	}
 }
 
-# SOCIALIST (SOV)
+# SOCIALIST
 
 music = {
 	song = "polyushko_polye"
@@ -7093,7 +7093,7 @@ music = {
 	}
 }
 music = {
-	song = "over_hills"
+	song = "through_valleys_and_over_hills"
 	chance = {
 		base = 0
 		modifier = {
@@ -7104,7 +7104,7 @@ music = {
 	}
 }
 music = {
-	song = "the_cossacks"
+	song = "kazaki_kazachenki"
 	chance = {
 		base = 0
 		modifier = {
@@ -7115,7 +7115,7 @@ music = {
 	}
 }
 music = {
-	song = "song_of_cavalry"
+	song = "pesnya_cavaleriyskogo_patrulya"
 	chance = {
 		base = 0
 		modifier = {
@@ -7126,7 +7126,7 @@ music = {
 	}
 }
 music = {
-	song = "division_song"
+	song = "pesnya_27_divizii"
 	chance = {
 		base = 0
 		modifier = {
@@ -7171,6 +7171,28 @@ music = {
 }
 music = {
 	song = "you_fell_victim"
+	chance = {
+		base = 0
+		modifier = {
+			add = 20
+			is_russian_tag = yes
+			has_government = communism
+		}
+	}
+}
+music = {
+	song = "varshavianka"
+	chance = {
+		base = 0
+		modifier = {
+			add = 20
+			is_russian_tag = yes
+			has_government = communism
+		}
+	}
+}
+music = {
+	song = "there_march_the_soldiers"
 	chance = {
 		base = 0
 		modifier = {
@@ -9139,7 +9161,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			OR = {
+			AND = {
 				is_american_tag = yes has_elections = yes 
 				# tag = TEX
 			}
@@ -9152,7 +9174,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			OR = {
+			AND = {
 				is_american_tag = yes has_elections = yes 
 				# tag = TEX
 			}
