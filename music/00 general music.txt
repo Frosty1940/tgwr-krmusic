@@ -187,14 +187,14 @@ music = {
 	song = "strike_up_the_band"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes }
+		modifier = { add = 20	is_usa_tag = yes }
 	}
 }
 music = {
 	song = "pocketful_of_dreams"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes }
+		modifier = { add = 20	is_usa_tag = yes }
 	}
 }
 music = {
@@ -203,7 +203,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			is_american_tag = yes
+			is_usa_tag = yes
 			NOT = { has_government = communism }
 		}
 	}
@@ -212,28 +212,28 @@ music = {
 	song = "the_bombardier"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes }
+		modifier = { add = 20	is_usa_tag = yes }
 	}
 }
 music = {
 	song = "american_patrol"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes }
+		modifier = { add = 20	is_usa_tag = yes }
 	}
 }
 music = {
 	song = "a_wing_and_a_prayer"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes }
+		modifier = { add = 20	is_usa_tag = yes }
 	}
 }
 music = {
 	song = "pistol_packing_momma"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes }
+		modifier = { add = 20	is_usa_tag = yes }
 	}
 }
 music = {
@@ -242,7 +242,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			is_american_tag = yes
+			is_usa_tag = yes
 			date > 1941.1.1
 		}
 	}
@@ -251,28 +251,28 @@ music = {
 	song = "boogie_woogie"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes }
+		modifier = { add = 20	is_usa_tag = yes }
 	}
 }
 music = {
 	song = "g_i_give"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes }
+		modifier = { add = 20	is_usa_tag = yes }
 	}
 }
 music = {
 	song = "when_johnny_comes_marching_home"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes }
+		modifier = { add = 20	is_usa_tag = yes }
 	}
 }
 music = {
 	song = "moonlight_serenade"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes }
+		modifier = { add = 20	is_usa_tag = yes }
 	}
 }
 
@@ -2342,7 +2342,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
+			OR = { original_tag = ENG is_usa_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
 			has_government = communism
 		}
 	}
@@ -2353,7 +2353,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
+			OR = { original_tag = ENG is_usa_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
 			has_government = communism
 		}
 	}
@@ -2364,7 +2364,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
+			OR = { original_tag = ENG is_usa_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
 			has_government = communism
 		}
 	}
@@ -2375,7 +2375,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
+			OR = { original_tag = ENG is_usa_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
 			has_government = communism
 		}
 	}
@@ -2824,7 +2824,7 @@ music = {
 			add = 20
 			OR = {
 				OR = { original_tag = EGY original_tag = SUD original_tag = DAR }
-				tag = GRE
+				is_greek_nation = yes
 			}
 		}
 	}
@@ -2901,7 +2901,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
+			OR = { original_tag = ENG is_usa_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
 			has_government = communism
 		}
 	}
@@ -2912,8 +2912,8 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			OR = { original_tag = ENG is_american_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
-			is_american_tag = no
+			OR = { original_tag = ENG is_usa_tag = yes original_tag = CAN original_tag = SAF original_tag = NZL original_tag = AST original_tag = HAW original_tag = IRE original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL }
+			is_usa_tag = no
 			has_government = communism
 		}
 	}
@@ -3225,7 +3225,7 @@ music = {
 			tag = FOP
 			OR = {
 				has_government = communism
-				has_country_leader_ideology = socialism
+				has_country_leader_ideology = social_democracy
 			}
 		}
 	}
@@ -3239,7 +3239,7 @@ music = {
 			tag = FOP
 			OR = {
 				has_government = communism
-				has_country_leader_ideology = socialism
+				has_country_leader_ideology = social_democracy
 			}
 		}
 	}
@@ -3253,7 +3253,7 @@ music = {
 			tag = FOP
 			OR = {
 				has_government = communism
-				has_country_leader_ideology = socialism
+				has_country_leader_ideology = social_democracy
 			}
 		}
 	}
@@ -3267,7 +3267,7 @@ music = {
 			tag = FOP
 			OR = {
 				has_government = communism
-				has_country_leader_ideology = socialism
+				has_country_leader_ideology = social_democracy
 			}
 		}
 	}
@@ -3281,7 +3281,7 @@ music = {
 			tag = FOP
 			OR = {
 				has_government = communism
-				has_country_leader_ideology = socialism
+				has_country_leader_ideology = social_democracy
 			}
 		}
 	}
@@ -3295,7 +3295,7 @@ music = {
 			tag = FOP
 			OR = {
 				has_government = communism
-				has_country_leader_ideology = socialism
+				has_country_leader_ideology = social_democracy
 			}
 		}
 	}
@@ -3551,7 +3551,7 @@ music = {
 			add = 20
 			OR = {
 				AND = {
-					OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism } 
+					OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = social_democracy } 
 				}
 				tag = IRE
 			}
@@ -3573,77 +3573,77 @@ music = {
 	song = "colonel_bogey_march"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = social_democracy }   }
 	}
 }
 music = {
 	song = "the_last_time_i_saw_paris"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = social_democracy }   }
 	}
 }
 music = {
 	song = "i_vow_to_thee_my_country"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = social_democracy }   }
 	}
 }
 music = {
 	song = "god_save_the_king"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = social_democracy }   }
 	}
 }
 music = {
 	song = "heart_of_oak"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = social_democracy }   }
 	}
 }
 music = {
 	song = "land_of_hope_and_glory"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = social_democracy }   }
 	}
 }
 music = {
 	song = "song_of_liberty"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = social_democracy }   }
 	}
 }
 music = {
 	song = "keep_the_home_fires_burning"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = social_democracy }   }
 	}
 }
 music = {
 	song = "sons_of_the_brave"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = social_democracy }   }
 	}
 }
 music = {
 	song = "rule_britannia"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = social_democracy }   }
 	}
 }
 music = {
 	song = "well_never_let_the_old_flag_fall"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = social_democracy }   }
 	}
 }
 
@@ -3741,14 +3741,14 @@ music = {
 	song = "air_force_march"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = GRE }
+		modifier = { add = 20	is_greek_nation = yes }
 	}
 }
 music = {
 	song = "ymnos_is_tin_eleftherian"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = GRE }
+		modifier = { add = 20	is_greek_nation = yes }
 	}
 }
 music = {
@@ -3762,91 +3762,91 @@ music = {
 	song = "the_artillery_march"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = GRE }
+		modifier = { add = 20	is_greek_nation = yes }
 	}
 }
 music = {
 	song = "sta_kanonia"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = GRE }
+		modifier = { add = 20	is_greek_nation = yes }
 	}
 }
 music = {
 	song = "pindus_march"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = GRE }
+		modifier = { add = 20	is_greek_nation = yes }
 	}
 }
 music = {
 	song = "our_flag_march"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = GRE }
+		modifier = { add = 20	is_greek_nation = yes }
 	}
 }
 music = {
 	song = "evzonaki"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = GRE }
+		modifier = { add = 20	is_greek_nation = yes }
 	}
 }
 music = {
 	song = "cavalry_march"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = GRE }
+		modifier = { add = 20	is_greek_nation = yes }
 	}
 }
 music = {
 	song = "pernaei_o_stratos"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = GRE }
+		modifier = { add = 20	is_greek_nation = yes }
 	}
 }
 music = {
 	song = "makedonia_ksakousti"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = GRE }
+		modifier = { add = 20	is_greek_nation = yes }
 	}
 }
 music = {
 	song = "black_is_the_night"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = GRE }
+		modifier = { add = 20	is_greek_nation = yes }
 	}
 }
 music = {
 	song = "aegean_sailor_march"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = GRE }
+		modifier = { add = 20	is_greek_nation = yes }
 	}
 }
 music = {
 	song = "returning_from_the_battle"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = GRE }
+		modifier = { add = 20	is_greek_nation = yes }
 	}
 }
 music = {
 	song = "miltos_paschalidis"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = GRE }
+		modifier = { add = 20	is_greek_nation = yes }
 	}
 }
 music = {
 	song = "greece_never_dies"
 	chance = {
 		base = 0
-		modifier = { add = 20	tag = GRE }
+		modifier = { add = 20	is_greek_nation = yes }
 	}
 }
 
@@ -5883,7 +5883,7 @@ music = {
 			tag = NOR
 			OR = {
 				has_government = communism
-				has_country_leader_ideology = socialism
+				has_country_leader_ideology = social_democracy
 			}
 		}
 	}
@@ -5897,7 +5897,7 @@ music = {
 			tag = NOR
 			OR = {
 				has_government = communism
-				has_country_leader_ideology = socialism
+				has_country_leader_ideology = social_democracy
 			}
 		}
 	}
@@ -6206,7 +6206,7 @@ music = {
 	}
 }
 music = {
-	song = "kabha_ye_tala"
+	song = "khaabha_ye_talaai"
 	chance = {
 		base = 0
 		modifier = { add = 20	tag = PER }
@@ -6414,6 +6414,7 @@ music = { # Republican Anthem
 			add = 2
 			tag = POR
 			NOT = { has_country_leader_ideology = semi_constitutional_monarchy }
+			NOT = { has_country_leader_ideology = semi_constitutional_monarchy_reserve }
 		}
 	}
 }
@@ -6506,6 +6507,7 @@ music = {
 			add = 20
 			tag = POR
 			has_country_leader_ideology = semi_constitutional_monarchy
+			has_country_leader_ideology = semi_constitutional_monarchy_reserve
 		}
 	}
 }
@@ -6517,6 +6519,7 @@ music = {
 			add = 20
 			tag = POR
 			has_country_leader_ideology = semi_constitutional_monarchy
+			has_country_leader_ideology = semi_constitutional_monarchy_reserve
 		}
 	}
 }
@@ -7413,7 +7416,7 @@ music = {
 	song = "twa_recruiting_sergeants"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = social_democracy }   }
 	}
 }
 
@@ -7585,8 +7588,9 @@ music = {
 			add = 20
 			tag = SIA
 			OR = {
-				has_country_leader_ideology = autocracy
+				has_country_leader_ideology = absolute_monarchy
 				has_country_leader_ideology = semi_constitutional_monarchy
+				has_country_leader_ideology = semi_constitutional_monarchy_reserve
 			}
 			NOT = {
 				# has_cosmetic_tag = SIA_REP
@@ -7629,8 +7633,9 @@ music = {
 			add = 20
 			tag = SIA
 			OR = {
-				has_country_leader_ideology = autocracy
+				has_country_leader_ideology = absolute_monarchy
 				has_country_leader_ideology = semi_constitutional_monarchy
+				has_country_leader_ideology = semi_constitutional_monarchy_reserve
 			}
 		}
 	}
@@ -7643,8 +7648,9 @@ music = {
 			add = 20
 			tag = SIA
 			OR = {
-				has_country_leader_ideology = autocracy
+				has_country_leader_ideology = absolute_monarchy
 				has_country_leader_ideology = semi_constitutional_monarchy
+				has_country_leader_ideology = semi_constitutional_monarchy_reserve
 			}
 		}
 	}
@@ -7685,8 +7691,9 @@ music = {
 			add = 20
 			tag = SIA
 			OR = {
-				has_country_leader_ideology = autocracy
+				has_country_leader_ideology = absolute_monarchy
 				has_country_leader_ideology = semi_constitutional_monarchy
+				has_country_leader_ideology = semi_constitutional_monarchy_reserve
 			}
 		}
 	}
@@ -8492,77 +8499,77 @@ music = {
 	song = "american_salute"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
+		modifier = { add = 20	is_usa_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
 	}
 }
 music = {
 	song = "bravura"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
+		modifier = { add = 20	is_usa_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
 	}
 }
 music = {
 	song = "columbia_gem_of_the_ocean"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
+		modifier = { add = 20	is_usa_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
 	}
 }
 music = {
 	song = "front_section"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
+		modifier = { add = 20	is_usa_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
 	}
 }
 music = {
 	song = "the_yellow_rose_of_texas"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
+		modifier = { add = 20	is_usa_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
 	}
 }
 music = {
 	song = "nobles_of_the_mystic_shrine"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
+		modifier = { add = 20	is_usa_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
 	}
 }
 music = {
 	song = "purple_carnival"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
+		modifier = { add = 20	is_usa_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
 	}
 }
 music = {
 	song = "sound_off"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
+		modifier = { add = 20	is_usa_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
 	}
 }
 music = {
 	song = "trombone_king"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
+		modifier = { add = 20	is_usa_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
 	}
 }
 music = {
 	song = "southern_medley"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
+		modifier = { add = 20	is_usa_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
 	}
 }
 music = {
 	song = "tex_71st_regiment"
 	chance = {
 		base = 0
-		modifier = { add = 20	is_american_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
+		modifier = { add = 20	is_usa_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
 	}
 }
 
@@ -8926,14 +8933,14 @@ music = {
 	song = "battle_hymn"
 	chance = {
 		base = 0
-		modifier = { add = 20		is_american_tag = yes any_owned_state = { state = 378 state = 385 state = 386 } }
+		modifier = { add = 20		is_usa_tag = yes any_owned_state = { state = 378 state = 385 state = 386 } }
 	}
 }
 music = {
 	song = "from_the_new_world"
 	chance = {
 		base = 0
-		modifier = { add = 10		is_american_tag = yes any_owned_state = { state = 378 state = 385 state = 386 } }
+		modifier = { add = 10		is_usa_tag = yes any_owned_state = { state = 378 state = 385 state = 386 } }
 		modifier = { factor = 2		has_war = no }
 	}
 }
@@ -8941,7 +8948,7 @@ music = {
 	song = "I_love_you_california"
 	chance = {
 		base = 0
-		modifier = { add = 10		is_american_tag = yes any_owned_state = { state = 378 state = 385 state = 386 } }
+		modifier = { add = 10		is_usa_tag = yes any_owned_state = { state = 378 state = 385 state = 386 } }
 		modifier = { factor = 2		has_war = no }
 	}
 }
@@ -8949,28 +8956,28 @@ music = {
 	song = "maryland_march"
 	chance = {
 		base = 0
-		modifier = { add = 20		is_american_tag = yes has_elections = yes }
+		modifier = { add = 20		is_usa_tag = yes has_elections = yes }
 	}
 }
 music = {
 	song = "national_emblem_march"
 	chance = {
 		base = 0
-		modifier = { add = 20		is_american_tag = yes has_elections = yes }
+		modifier = { add = 20		is_usa_tag = yes has_elections = yes }
 	}
 }
 music = {
 	song = "us_field_artillery_march"
 	chance = {
 		base = 0
-		modifier = { add = 20		is_american_tag = yes has_elections = yes }
+		modifier = { add = 20		is_usa_tag = yes has_elections = yes }
 	}
 }
 music = {
 	song = "lincoln_and_liberty"
 	chance = {
 		base = 0
-		modifier = { add = 20		is_american_tag = yes has_elections = yes }
+		modifier = { add = 20		is_usa_tag = yes has_elections = yes }
 	}
 }
 music = {
@@ -8980,7 +8987,7 @@ music = {
 		modifier = {
 			add = 10
 			OR = {
-				is_american_tag = yes
+				is_usa_tag = yes
 				tag = HAW
 			}
 		}
@@ -8991,23 +8998,23 @@ music = {
 	song = "god_bless_america"
 	chance = {
 		base = 0
-		modifier = { add = 20		is_american_tag = yes any_owned_state = { state = 378 state = 385 state = 386 } }
-		modifier = { add = 15		is_american_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
+		modifier = { add = 20		is_usa_tag = yes any_owned_state = { state = 378 state = 385 state = 386 } }
+		modifier = { add = 15		is_usa_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
 	}
 }
 music = {
 	song = "stars_and_stripes"
 	chance = {
 		base = 0
-		modifier = { add = 20		is_american_tag = yes any_owned_state = { state = 378 state = 385 state = 386 } }
-		modifier = { add = 15		is_american_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
+		modifier = { add = 20		is_usa_tag = yes any_owned_state = { state = 378 state = 385 state = 386 } }
+		modifier = { add = 15		is_usa_tag = yes OR = { has_government = fascism has_government = neutrality } owns_state = 375 }
 	}
 }
 music = {
 	song = "over_there"
 	chance = {
 		base = 0
-		modifier = { add = 20		is_american_tag = yes any_owned_state = { state = 378 state = 385 state = 386 } }
+		modifier = { add = 20		is_usa_tag = yes any_owned_state = { state = 378 state = 385 state = 386 } }
 		modifier = { add = 15		tag = CSA }
 	}
 }
@@ -9017,7 +9024,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			is_american_tag = yes any_owned_state = { state = 378 state = 385 state = 386 }
+			is_usa_tag = yes any_owned_state = { state = 378 state = 385 state = 386 }
 		}
 		modifier = {
 			add = 15
@@ -9025,7 +9032,7 @@ music = {
 			# 	tag = TEX
 			# 	tag = CSA
 			# }
-			is_american_tag = yes
+			is_usa_tag = yes
 		}
 	}
 }
@@ -9035,11 +9042,11 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			is_american_tag = yes any_owned_state = { state = 378 state = 385 state = 386 }
+			is_usa_tag = yes any_owned_state = { state = 378 state = 385 state = 386 }
 		}
 		modifier = {
 			add = 15
-			is_american_tag = yes
+			is_usa_tag = yes
 			# OR = {
 			# 	tag = CSA
 			# 	AND = {
@@ -9056,7 +9063,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			is_american_tag = yes any_owned_state = { state = 378 state = 385 state = 386 }
+			is_usa_tag = yes any_owned_state = { state = 378 state = 385 state = 386 }
 		}
 		modifier = {
 			add = 15
@@ -9064,7 +9071,7 @@ music = {
 			# 	tag = TEX
 			# 	tag = CSA
 			# }
-			is_american_tag = yes
+			is_usa_tag = yes
 		}
 	}
 }
@@ -9074,7 +9081,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			is_american_tag = yes any_owned_state = { state = 378 state = 385 state = 386 }
+			is_usa_tag = yes any_owned_state = { state = 378 state = 385 state = 386 }
 		}
 		modifier = {
 			add = 15
@@ -9082,7 +9089,7 @@ music = {
 			# 	tag = CSA
 			# 	tag = NEE
 			# }
-			is_american_tag = yes
+			is_usa_tag = yes
 		}
 	}
 }
@@ -9092,7 +9099,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			is_american_tag = yes any_owned_state = { state = 378 state = 385 state = 386 }
+			is_usa_tag = yes any_owned_state = { state = 378 state = 385 state = 386 }
 		}
 		modifier = {
 			add = 20
@@ -9100,7 +9107,7 @@ music = {
 			# 	tag = NEE
 			# 	tag = TEX
 			# }
-			is_american_tag = yes
+			is_usa_tag = yes
 		}
 	}
 }
@@ -9110,7 +9117,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			is_american_tag = yes any_owned_state = { state = 378 state = 385 state = 386 }
+			is_usa_tag = yes any_owned_state = { state = 378 state = 385 state = 386 }
 		}
 		modifier = {
 			add = 20
@@ -9119,7 +9126,7 @@ music = {
 			# 	tag = NEE
 			# 	tag = TEX
 			# }
-			is_american_tag = yes
+			is_usa_tag = yes
 		}
 	}
 }
@@ -9129,7 +9136,7 @@ music = {
 		base = 0
 		modifier = {
 			add = 20
-			is_american_tag = yes any_owned_state = { state = 378 state = 385 state = 386 }
+			is_usa_tag = yes any_owned_state = { state = 378 state = 385 state = 386 }
 		}
 		modifier = {
 			add = 15
@@ -9137,7 +9144,7 @@ music = {
 			# 	tag = NEE
 			# 	tag = TEX
 			# }
-			is_american_tag = yes
+			is_usa_tag = yes
 		}
 	}
 }
@@ -9148,7 +9155,7 @@ music = {
 		modifier = {
 			add = 10
 			OR = {
-				is_american_tag = yes any_owned_state = { state = 378 state = 385 state = 386 }
+				is_usa_tag = yes any_owned_state = { state = 378 state = 385 state = 386 }
 				# tag = TEX
 			}
 		}
@@ -9162,7 +9169,7 @@ music = {
 		modifier = {
 			add = 20
 			AND = {
-				is_american_tag = yes has_elections = yes 
+				is_usa_tag = yes has_elections = yes 
 				# tag = TEX
 			}
 		}
@@ -9175,7 +9182,7 @@ music = {
 		modifier = {
 			add = 20
 			AND = {
-				is_american_tag = yes has_elections = yes 
+				is_usa_tag = yes has_elections = yes 
 				# tag = TEX
 			}
 		}
@@ -9360,7 +9367,7 @@ music = {
 	song = "forged_from_the_love_of_liberty"
 	chance = {
 		base = 0
-		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = socialism }   }
+		modifier = { add = 20	OR = { original_tag = ENG original_tag = CAN original_tag = SAF original_tag = AST original_tag = NZL original_tag = NIR original_tag = SCO original_tag = WLS original_tag = NFL } NOT = { has_government = communism has_country_leader_ideology = social_democracy }   }
 	}
 }
 
